@@ -7,7 +7,3 @@ RUN npm run build
 
 FROM nginx
 COPY --from=build /app/build /usr/share/nginx/html
-# 포트 80을 노출
-EXPOSE 80
-# Nginx 실행
-CMD ["nginx", "-g", "daemon off;"]
