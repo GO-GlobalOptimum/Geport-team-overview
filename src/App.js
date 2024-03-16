@@ -7,7 +7,7 @@ import AddTodo from './AddTodo';
 function App(){
     const [items, setItems] = useState([{
         id : "0",
-        title : "Hello world 1",
+        title : "mmmmm",
         done : true
     },{
         id : "1",
