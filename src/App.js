@@ -11,7 +11,7 @@ function App(){
         done : true
     },{
         id : "1",
-        title : "Hello world 2",
+        title : "제발 좀 돼라",
         done : true
     }]) // 전체 item 리스트
 
