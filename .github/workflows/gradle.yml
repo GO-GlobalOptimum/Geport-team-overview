@@ -1,5 +1,5 @@
 name: prod
- 
+
 on:
   push:
     branches: [ main ]
@@ -22,7 +22,7 @@ jobs:
           host: ${{ secrets.GCP_HOST }}
           username: ${{ secrets.GCP_USER }}
           key: ${{ secrets.GCP_KEY }}
-          port: 22
+          port: ${{ secrets.GCP_PORT }}
           envs: GITHUB_SHA
           script: |
             # Load the current service version (blue or green)
