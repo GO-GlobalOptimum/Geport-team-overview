@@ -22,7 +22,6 @@ jobs:
           host: ${{ secrets.GCP_HOST }}
           username: ${{ secrets.GCP_USER }}
           key: ${{ secrets.GCP_KEY }}
-          password: ${{ secrets.GCP_PASSWORD }}
           port: ${{ secrets.GCP_PORT }}
           envs: GITHUB_SHA
           script: |
