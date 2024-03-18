@@ -51,7 +51,7 @@ jobs:
             sudo docker run -d --rm --name ${NEW_SERVICE} -p ${NEW_PORT}:80 whitekuj02/web_practice:${GITHUB_SHA::7}
 
             # Update the NGINX configuration
-            sudo sed -i "s/server localhost:800[1-2];/server localhost:${NEW_PORT};/g" /etc/nginx/nginx.conf
+            sudo sed -i "s/server localhost:300[1-2];/server localhost:${NEW_PORT};/g" /etc/nginx/nginx.conf
 
             # Update the service-url.inc file
             echo "set \$service_url http://127.0.0.1:${NEW_PORT};" | sudo tee /etc/nginx/conf.d/service-url.inc
