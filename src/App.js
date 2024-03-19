@@ -1,4 +1,24 @@
+import React from 'react';
 import './App.css';
+import HomeWeb from './comp/HomeWeb';
+import Intro from './comp/intro';
+import ComponentA from './comp/last_page';
+import MiddlePage from './comp/MiddlePage';
+
+function App() {
+  return (
+    <div className="App">
+      <HomeWeb />
+      <Intro />
+      <MiddlePage />
+      <ComponentA />
+    </div>
+  );
+}
+
+export default App;
+/*위에 주석치고 밑에 주석 해제하면 원래 페이지로 돌아온단다./*/
+{/*import './App.css';
 import ToDo from './ToDo';
 import React, {useState} from "react";
 import {Container, List, Paper} from "@mui/material";
@@ -57,4 +77,4 @@ function App(){
     </div>);
 
 }
-export default App;
+export default App;*/}

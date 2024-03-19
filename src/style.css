@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+
+}
+
+/* Reset css*/
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button,
+input,
+textarea{
+    font-size: 16px;
+}
+
+button:focus,
+button:active,
+input:focus,
+input:active,
+textarea:focus,
+textarea:active{
+
+    outline: none;
+    box-shadow: none;
+
+}
+
+ul,
+ol,
+li {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2b292d;
+}
+
+/* Custom Grid System - Fix container width */
+/*@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 960px !important;
+    }
+}*/
+
+.container {
+    width:100%;
+}
+
+.card1,.card2,.card3,.card4,.card5{
+    display: flex;
+    padding: 10px;
+    margin-bottom: 70px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.05), 0px 1px 3px rgba(0,0,0,0.1),
+    inset 0px 1px 0px rgba(255,255,255,0.1);
+    background-color: #F6F7FA;
+
+} 
+
+.text1 h2 .text2 h2 .text3 h2 .text4 h2 .text5 h2{
+font-size: 14px;
+margin-top: 5px;
+padding-top: 10px;
+}
+
+.text1,.text2,.text3,.text4,.text5{
+    margin-top: 27px;
+    margin-left: 20px; 
+    margin-right: 20px;
+}
+
+/* .card1,.card2,.card3,.card4,.card5{
+
+} */
