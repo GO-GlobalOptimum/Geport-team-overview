@@ -15,7 +15,7 @@ function last_page() {
   ];
 
   return (
-    <div>
+    <div style={{marginTop:"50px"}}>
       <div>
         <h4>TEAM GO를 소개합니다</h4>
         <h1>만든 사람들</h1>
@@ -44,7 +44,7 @@ function last_page() {
           ))}
         </div>
       </div>
-      <p>This is Intro Page</p>
+      <p style={{marginTop:"50px", marginBottom:"100px"}}>This is Intro Page</p>
     </div>
   );
 }

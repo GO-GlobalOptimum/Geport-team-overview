@@ -5,7 +5,7 @@ import '../style.css';
 
 function MiddlePage() {
     return(
-        <div class="container">
+        <div class="container" style={{marginTop:"50px"}}>
 
         <div class="row">
             <div class="col-9">

@@ -19,42 +19,43 @@ function HomeWeb() {
     };
 
     return (
-        <div style={{height: '1000px'}}>
-            <div style={{ height: '60%'}}>
-                <div style={{ height: '100%', backgroundImage : 'url(' + back + ')' }}>                
-                    <h1 style={{marginTop: '250px', fontSize : '3rem'}}>Geport, </h1>
-                    <h1 style={{fontSize : '3rem'}}>블로그로 시작하는 </h1>
-                    <h1 style={{marginTop : '-1.5%',fontSize : '3rem'}}>나만의 <span style={{color: "green"}}>퍼스널 브랜딩</span></h1>
+        <div style={{height: '1400px'}}>
+            <div style={{ height: '100vh'}}>
+                <div style={{ height: '100%', backgroundImage : 'url(' + back + ')', marginTop: '350px' }}>
+                    <h1 style={{fontSize: '3.5rem'}}>Geport, </h1>
+                    <h1 style={{fontSize: '3.5rem'}}>블로그로 시작하는 </h1>
+                    <h1 style={{fontSize: '3.5rem'}}>나만의 <span
+                        style={{color: "green"}}>퍼스널 브랜딩</span></h1>
                 </div>
             </div>
 
-            <div style={{height: '40%', display: 'flex'}}>
+            <div style={{height: '15%', display: 'flex'}}>
                 {/* 첫 번째 반 */}
                 <div style={{flex: 1, display: 'flex'}}>
 
-                    <div style={{marginLeft : '100px'}}>
-                        <div style={{textAlign: 'left'}}>
+                    <div style={{marginLeft: '100px'}}>
+                    <div style={{textAlign: 'left'}}>
                             <button style={{...buttonStyle, display: 'block', margin: '0'}}>
                                 Branding
                             </button>
-                            <h2>퍼스널 브랜딩 시대,</h2>
-                            <h2>나만의 브랜드를 만들고 싶다면?</h2>
-                            <p>Geport와 함께 나만의 브랜딩을 구축하세요</p>
+                            <h2 style={{fontSize: '2.5rem'}}>퍼스널 브랜딩 시대,</h2>
+                            <h2 style={{fontSize: '2.5rem'}}>나만의 브랜드를 만들고 싶다면?</h2>
+                            <p style={{fontSize: '1.5rem'}}>Geport와 함께 나만의 브랜딩을 구축하세요</p>
                         </div>
                     </div> 
                 </div>
                 
                 {/* 두 번째 반 */}
-                <div style={{flex: 1, display: 'flex'}}>
-                    <div style={{marginLeft : '15%', marginTop :'25%'}} >
+                <div>
+                    <div style={{marginRight : '100px', marginTop :'30%'}} >
                         <div>
                             <div style={{textAlign: 'left'}}>
                                 <button style={{...buttonStyle, display: 'block', margin: '0'}}>
                                     Making
                                 </button>
-                                <h2>꾸준히 기록한 블로그,</h2>
-                                <h2>활용할 방법을 찾고 있다면?</h2>
-                                <p>Gepor에서 쉽고 효율적으로 블로그를 관리하세요</p>
+                                <h2 style={{fontSize: '2.5rem'}}>꾸준히 기록한 블로그,</h2>
+                                <h2 style={{fontSize: '2.5rem'}}>활용할 방법을 찾고 있다면?</h2>
+                                <p style={{fontSize: '1.5rem'}}>Geport에서 쉽고 효율적으로 블로그를 관리하세요</p>
                             </div>
                         </div>  
                     </div>
